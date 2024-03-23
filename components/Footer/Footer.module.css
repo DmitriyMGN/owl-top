@@ -1,0 +1,23 @@
+.footerParagraph {
+	color: var(--white);
+}
+
+.footerLink {
+	color: var(--white);
+	text-decoration: none;
+}
+
+.footerLinkContainer {
+	display: flex;
+	justify-content: flex-end;
+	gap: 40px;
+}
+
+@media screen and (max-width:768px) {
+	.footerLinkContainer {
+	justify-content: center;
+	}
+	.footerParagraph {
+	text-align: center;
+	}
+}

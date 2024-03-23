@@ -1,0 +1,33 @@
+:root {
+	--black:#3B434E;
+	--gray: #71767d;
+	--gray-light: #EBEBEB;
+	--white: white;
+	--primary:#7653FC;
+	--primary-hover:#5933EF;
+	--red:#FC836D;
+	--green:#127a4f;
+	--green-light: #C8F8E4;
+	--font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	color: var(--black);
+	margin: 0;
+	font-family: var(	--font-family);
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.visualyHidden {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+
+
